@@ -83,11 +83,9 @@ These findings guided formal hypothesis testing and the modeling strategy.
 
 This project uses two complementary predictive tasks aligned with practical decision needs:
 
-**Regression Task**  
-Focused on estimating expected delay minutes under typical operating conditions. To avoid extreme values distorting minute-level prediction, outliers are excluded from the regression training set.
+**Regression Task**: Focused on estimating expected delay minutes under typical operating conditions. To avoid extreme values distorting minute-level prediction, outliers are excluded from the regression training set.
 
-**Classification Task**  
-Focused on identifying higher-risk scenarios using a critical delay definition (delay above 5 minutes). This framing is more actionable for planning and passenger communication, and better reflects operational risk management.
+**Classification Task**: Focused on identifying higher-risk scenarios using a critical delay definition (delay above 5 minutes). This framing is more actionable for planning and passenger communication, and better reflects operational risk management.
 
 Model choice prioritized **interpretability**, non-linear pattern capture, and alignment with real-world constraints.
 
