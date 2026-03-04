@@ -1,9 +1,9 @@
 # Railway Delay Analysis - Tübingen (Germany)
-Data-driven insights into railway punctuality, delay risk, and passenger experience in the German railway network (Deutsche Bahn).
+*Data-driven insights into railway punctuality, delay risk, and passenger experience in the German railway network (Deutsche Bahn).*
 
-Dataset: 12 months of railway operations (24,760 records)  
-Techniques: EDA, hypothesis testing, Random Forest models  
-Key Result: 82% accuracy in predicting critical delays
+**Dataset**: 12 months of railway operations (24,760 records)  
+**Techniques**: EDA, hypothesis testing, Random Forest models  
+**Key Result**: 82% accuracy in predicting critical delays
 
 ---
 
