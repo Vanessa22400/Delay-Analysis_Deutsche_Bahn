@@ -77,6 +77,8 @@ These findings guided formal hypothesis testing and the modeling strategy.
 
 ![Feature Importance](Images/2.Average_Train_Delay_Weekday.png)
 
+*Average delay by weekday: Mondays show consistently higher delays.*
+
 ---
 
 ## Modeling Approach
@@ -107,6 +109,9 @@ Minute-level prediction is unstable because severe disruptions are often driven 
 The model is strong at confirming lower-risk situations (useful for passenger trust and baseline planning). Critical delays remain harder to capture due to unobserved drivers and the nature of rare disruptions. This is a data limitation more than a modeling limitation, and it is a realistic finding for operational systems.
 
 ![Feature Importance](Images/feature_importance.png)
+
+*Feature Importante: 'month' is the most predictive factor of a critical delay.*
+
 
 ---
 
